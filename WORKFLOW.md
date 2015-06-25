@@ -1,11 +1,11 @@
 # Tinkerbox Workflow
-## Ted Johansson
+## by Ted Johansson
 
 ### **Version Control**
 
-#### **Commits should be...**
+##### **Commits should be...**
 
-#### **Clean!**
+##### **Clean!**
 * No comments
 * No debug statements
 * No TODO’s
@@ -13,12 +13,12 @@
 
 _Pro tip: `git diff`_
 
-#### **Atomic & islolated**
+##### **Atomic & islolated**
 * One change, one commit
 
 _Pro tip: If your commit message contains the word 'and', it's probably not isolated_
 
-#### **Proper commit message**
+##### **Proper commit message**
 * First line should be synopsis
 * Include rationale for something complex, unconventional, controversial
 
@@ -30,23 +30,23 @@ _ie. Bad commit messages_
 _ie. Good commit messages_
 * Navbar now properly sticks to the top on mobile
 
-#### **Things to think about**
+##### **Things to think about**
 * What is changed & why do we need this?
 * Why did I pick this gem & why do we need this?
 * Add environment variables, etc
 
 ### **Testing**
 
-#### **TDD**
+##### **TDD**
 
-#### **gem `guard`**
+##### **gem `guard`**
 * Automated testing ie. rubocop, rspec
 
 ### **Thinking**
 
-#### **No code monkey workflow**
+##### **No code monkey workflow**
 
-#### **Agile vs Waterfall**
+##### **Agile vs Waterfall**
 * Tinkerbox promotes itself as an agile company
 * Work should be split by feature not by functional decomposition/layer
 * Although MVC is separation of concerns, we should not follow this style of working when it comes to developing a product
